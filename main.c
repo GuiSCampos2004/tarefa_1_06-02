@@ -31,7 +31,7 @@ int main(){
     sleep_ms(5000);
     pwm_set_gpio_level(motor, 3675); //Coloca o servo a 90º
     sleep_ms(5000);
-    pwm_set_gpio_level(motor, 1250); //Coloca o servo a 90º
+    pwm_set_gpio_level(motor, 1250); //Coloca o servo a 0º
     sleep_ms(5000);
 //-----------------------------------------------------------------------------------------
 
